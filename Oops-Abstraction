@@ -1,0 +1,31 @@
+## Abstraction is an OOPS concept to construct the structure of the real world objects. 
+  During this construction only the general states and behaviors are taken and more specific states and 
+  behaviors are left aside for the implementers.
+The abstraction provides a way to create user-defined data types for designing real-world objects having same properties.
+Abstraction is primarily used to hide the complexity. It indicates the necessary characteristics of 
+  an object that differentiates it from all other types of objects. An abstraction concentrates on the external aspect of an object. 
+Types of Abstraction:
+Procedural abstraction – It includes series of the instructions having the specified functions.
+Data abstraction – It is set of data that specifies and describes a data object.
+Control abstraction – It is program control mechanism where interior details are not specified.
+
+Abstraction shows the relevant information and rejects the non-essential details.
+
+Abstraction solves the issues at the design level.
+Abstraction is about hiding unwanted details while showing most essential information.
+Abstraction allows focussing on what the information object must contain
+
+Abstract method can't be Private. 
+
+package com.abstraction;
+abstract class Day1 {
+	
+	protected abstract void testMe();
+	public abstract void testMe1();
+	abstract void testMe2();
+	
+	private void testMe3() {
+		
+	}
+
+}
