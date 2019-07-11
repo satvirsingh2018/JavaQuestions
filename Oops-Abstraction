@@ -16,6 +16,8 @@ Abstraction is about hiding unwanted details while showing most essential inform
 Abstraction allows focussing on what the information object must contain
 
 Abstract method can't be Private. 
+Abstract method can't be Private. 
+Data Member can be Private/Protected/Public but this can't be abstract.
 
 package com.abstraction;
 abstract class Day1 {
@@ -27,5 +29,9 @@ abstract class Day1 {
 	private void testMe3() {
 		
 	}
+	public String name;
+	private String name1;
+	protected String name2;
+	//abstract String name3; //This is not a valid declaration.
 
 }
